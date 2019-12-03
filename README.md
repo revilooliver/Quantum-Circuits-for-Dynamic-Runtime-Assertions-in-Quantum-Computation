@@ -1,34 +1,39 @@
 # Quantum-Circuits-for-Dynamic-Runtime-Assertions-in-Quantum-Computation
 This repository contains artifacts and test files to reproduce experiments from the ASPLOS 2020 paper "Quantum circuits for dynamic runtime assertions in quantum computation" by J.Liu and H.Zhou
-# Software pre-requisites
-Python
 
-Hardware pre-requisities
+System pre-requisities for Qiskit
 ========================
-Any of the following architectures:
-* Intel-based 
-* ARM64 with 64-bit kernel
+* Ubuntu 16.04 or later
+* macOS 10.12.6 or later
+* Windows 7 or later
 
 Software pre-requisites
 =======================
 
-* Python 2.7 or 3.3+
-* git client
-* Collective Knowledge Framework (CK) - http://cKnowledge.org
-* All other dependencies will be installed by CK (LLVM 3.9 and plugins)
+* Python 3.5+
+* Qiskit version 0.13.0+
 
-You can install above dependencies on Ubuntu via:
+
+You can install above dependencies on Linux via:
 ```
-$ sudo apt-get install python python-pip git
-$ sudo pip install ck
+$ pip install qiskit
 ```
+You can also check the following documentation for installing Qiskit:
+https://qiskit.org/documentation/install.html
 
 Installation
 ============
 
-You can install this repository via CK as follows:
+If Qiskit is installed successfully, copy and paste the assertion.py file under compiler folder "\qiskit\compiler" in Qiskit installation directory.
 
-```
-$ ck pull repo --url=https://github.com/SamAinsworth/reproduce-cgo2017-paper
-```
+Testing installation
+=======================
 
+You can run the testing.ipydb file to test.
+
+Running experimental workflows
+=======================
+
+Validation of results
+=======================
+You can run the validation files in test folder to validate the experiments for assertion circuit fidelity and successrate improvement.
