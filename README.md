@@ -12,6 +12,7 @@ Software pre-requisites
 
 * Python 3.5+
 * Qiskit version 0.13.0+
+* Jupyter notebook
 
 
 You can install above dependencies on Linux via:
