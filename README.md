@@ -34,9 +34,11 @@ You can run the testing.ipydb file to test.
 
 Running experimental workflows
 =======================
+
 To run the experiments for the fidelity of our assertion circuit, run the jupyter notebooks under the folder named "fidelity". Tests should take less than 10 mins for the 20-qubit quantum computers, depending on the number of jobs submitted to the machine.
 
 To run the experiments for the success rate of different benchmarks, run the jupyter notebooks under the folder named "benchmark". Test could take dozens of minutes, depending on the number of jobs submitted to the machine.
+
 Validation of results
 =======================
 You can run the validation files in test folder to validate the experiments for assertion circuit fidelity and successrate improvement.
