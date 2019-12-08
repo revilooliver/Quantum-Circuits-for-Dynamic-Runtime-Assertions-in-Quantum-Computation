@@ -1,5 +1,5 @@
 # Quantum-Circuits-for-Dynamic-Runtime-Assertions-in-Quantum-Computation
-This repository contains artifacts and test files to reproduce experiments from the ASPLOS 2020 paper "Quantum circuits for dynamic runtime assertions in quantum computation" by J.Liu and H.Zhou
+This repository contains artifacts and test files to reproduce experiments from the ASPLOS 2020 paper "Quantum circuits for dynamic runtime assertions in quantum computation" by J.Liu, G.Byrd and H.Zhou
 
 System pre-requisities for Qiskit
 ========================
