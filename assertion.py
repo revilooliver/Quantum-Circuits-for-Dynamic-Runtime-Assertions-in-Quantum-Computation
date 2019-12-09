@@ -114,7 +114,8 @@ def calcSuccessrate(result, correct_output, num_assertion):
             total += result[keys]
         elif keys.startswith(assertionString):
             total += result[keys]
-    success = result[correct_output]
+    for outputs in correct_output:
+        success += result[outputs]
 
     probability = success / total
     print("total_count = ", total, "success_count = ", success, "success_rate = ", probability*100, "%")
