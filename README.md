@@ -36,7 +36,7 @@ If Qiskit is installed successfully, copy and paste the assertion.py file under 
 Testing installation
 =======================
 
-You can run the testing.ipydb file to test.
+You can run the testing.ipynb file to test.
 
 Running experimental workflows
 =======================
