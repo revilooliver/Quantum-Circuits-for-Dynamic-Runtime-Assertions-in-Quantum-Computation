@@ -32,7 +32,8 @@ Installation
 ============
 
 If Qiskit is installed successfully, copy and paste the assertion.py file under compiler folder "...\qiskit\compiler" in Qiskit installation directory.
-
+The default Qiskit installation directory is lib/<python_ver> /site-packages/qiskit/. 
+If your are using the anaconda virtual environment, the Qiskit installation directory is <name of your virtual env>\Lib\site-packages\qiskit.
 Testing installation
 =======================
 
